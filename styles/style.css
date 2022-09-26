@@ -1,0 +1,154 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/galaxy.png');
+
+    font-family: 'Space Mono';
+}
+
+div {
+    background-color: #8282825f;
+
+    padding: 1px;
+
+    border-radius: 10px;
+
+    justify-content: center;
+    text-align: center;
+
+    width: 900px;
+    height: 100%;
+
+    margin: auto;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+
+    justify-content: center;
+}
+
+/* TITLE */
+h1.title {
+    text-align: center;
+    
+    margin: 35px 0;
+
+    color: #fff;
+}
+
+/* P */
+p#res {
+    background-color: #645c5c;
+    
+    color: #fff;
+    font-size: 1.3em;
+
+    padding: 15px;
+
+    margin-bottom: 20px;
+}
+
+/* IMGs */
+img {
+    text-align: center;
+
+    margin: auto;
+
+    width: 400px;
+    height: 400px;
+
+}
+
+/* INPUT, SELECT AND BUTTON */
+form {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+input,
+select,
+button {
+    font-family: 'Space Mono';
+}
+
+input#weight-inp,
+select#planet-select {
+    background-color: #645c5c;
+    
+    border: none;
+
+    padding: 0px 7px;
+}
+
+input {
+    width: 185px;
+
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+label {
+    display: flex;
+
+    justify-content: center;
+
+    color: #fff;
+}
+
+select {
+    color: #fff;
+}
+
+button#calc-btn {
+    background-color: #645c5c;
+
+    border: none;
+    border-radius: 5px;
+
+    color: #fff;
+
+    padding: 8px;
+
+    cursor: pointer;
+
+    transition: .35s;
+}
+
+button#calc-btn:hover {
+    background-color: #fff;
+
+    color: #000;
+}
+
+/* FOOTER */
+
+p.footer {
+    margin-top: 50px;
+
+    text-align: center;
+
+    color: #a2a2a2;
+    font-size: 14px;
+}
+
+a.my-portfolio {
+    color: #efefef;
+
+    font-weight: bold;
+    text-decoration: none;
+}

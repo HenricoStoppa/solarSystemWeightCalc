@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight in diferent gravities</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <h1 class="title">Sua massa em gravidades diferentes</h1>
+
+    <div class="show-info">
+        <form action="" id="form">
+            <input 
+                type="text" id="weight-inp" name="weight-inp"
+                placeholder="Digite seu peso..." autocomplete="off"
+            >
+
+            <select name="planet-select" id="planet-select">
+                <option value="" disabled selected>Escolha um planeta/astro<option>
+                <option value="sun">Sol</option>
+                <option value="mercury">Mercúrio</option>
+                <option value="venus">Vênus</option>
+                <option value="earth">Terra</option>
+                <option value="moon">Lua</option>
+                <option value="mars">Marte</option>
+                <option value="jupter">Júpter</option>
+                <option value="saturn">Saturno</option>
+                <option value="uranus">Urano</option>
+                <option value="neptune">Netuno</option>
+            </select>
+    
+            <button id="calc-btn">Calcular</button>
+        </form>
+        
+        <p id="res">PESO NECESSÁRIA...</p>
+    </div>
+
+    <footer>
+        <p class="footer">Criado por <a class="my-portfolio" href=#">Henrico Stoppa</a> &#9400;</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
